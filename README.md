@@ -1,3 +1,7 @@
 # Stanford-AI4ALL-NLP-Fake-News
-Stanford AI4ALL project utilizing multiple algorithms like TF-IDF with Multinomial Naive Bayes, Clustering, Embedding, Log-Odds, RoBERTa Classifiers, and a finalized ensemble model.
-Completed in a Google Colab notebook.
+This project builds a fake news detector by combining multiple NLP techniques into a single ensemble model. 
+We analyze news articles using linguistic features (punctuation patterns, capitalization), TF-IDF text representations with Naive Bayes, and a RoBERTa classifier with the LIAR dataset. These signals are combined as input features to a Gradient Boosting classifier, with 94% accuracy on the fake/real news dataset.
+Datasets: Fake/True news CSV dataset (Kaggle) + LIAR dataset (also found on Kaggle)
+Key techniques: Text cleaning, log-odds analysis, clustering, Naive Bayes, TF-IDF + SVD, RoBERTa classifier, logistic regression, Gradient Boosting ensemble.
+
+
