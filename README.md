@@ -4,4 +4,6 @@ We analyze news articles using linguistic features (punctuation patterns, capita
 Datasets: Fake/True news CSV dataset (Kaggle) + LIAR dataset (also found on Kaggle)
 Key techniques: Text cleaning, log-odds analysis, clustering, Naive Bayes, TF-IDF + SVD, RoBERTa classifier, logistic regression, Gradient Boosting ensemble.
 
+Demo on Hugging Face located here: https://huggingface.co/spaces/rachat/fakenewsdetector
+
 
